@@ -1,0 +1,166 @@
+body{
+  background: linear-gradient(#eabddc, #d06288);
+  margin: 0%;
+}
+
+h1{
+  color: #000000;
+  text-align:center; 
+  font-family:OCR A Std, monospace;
+}
+
+p{
+  text-align: center;
+  font-family: OCR A Std, monospace;
+}
+
+#criador{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#novaColuna{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table{
+  border-collapse: collapse;
+  border: 1px solid;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 100px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+td{
+  border: 1px solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  text-align: center;
+}
+
+th{
+  text-align: center;   
+}
+
+caption, tfoot{
+  border-bottom: none;
+  background-color: #f4d2dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=color]{
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+button[type=submit]{
+  padding: 0;
+  background-color: #c7dfff;
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+input[type=text]{
+  border: none;
+  background-color: #faf5f7;
+  height: 20px;
+  border-radius: 5px; 
+}
+
+input[type=checkbox]{
+  height: 12px;
+  width: 12px;
+  font-size: 20px;
+}
+
+#coluna{
+  border: solid 1px #000000;
+  border-radius: 3px;
+  text-align: center;
+}
+
+#tabelas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+button{
+  background-color: #c7dfff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card label{
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+footer{
+  background-color: #c7dfff;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-content: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+#c1, #c2, a{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+}
+
+a{
+  width: 300px;
+  height: 100px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+#voltar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
