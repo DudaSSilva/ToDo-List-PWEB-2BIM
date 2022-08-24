@@ -1,7 +1,7 @@
 # ToDo-List-PWEB-2BIM
 Sistema de organização de afazeres
 
-###Integrantes da equipe:
+#### Integrantes da equipe:
 
 * Camile Vitória
 * Eduarda Soares
